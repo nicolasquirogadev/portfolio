@@ -85,6 +85,8 @@ section {
     background-color: var(--bg-dark);
 }
 
+
+
 .sec1 {
     display: none;
     transform: translateY(0) scale(1);
@@ -107,4 +109,10 @@ section {
     display: none;
     transform: translateY(0) scale(1);
     background-color: yellow;
+}
+
+section.active {
+    display: block;
+    height: 100vh;
+    width: 100%;
 }
